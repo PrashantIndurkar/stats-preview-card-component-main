@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+.information {
+   padding: 30px 0px 10px 0px;
+}
+   .information-content:last-child .information-title {
+      text-transform: uppercase;
+   }
+   .information-content:not(:last-child) {
+      margin-bottom: 30px;
+   }
+         .information-title {
+            color: #ffffffbf;
+         }
+         .information-description {
+            color: #ffffff99;
+            font-size: 0.75rem;
+            letter-spacing: 1px;
+            padding: 8px;
+            text-transform: uppercase;
+         }
+
+@media screen and (min-width: 1024px) {
+   .information {
+      align-items: flex-end;
+      display: flex;
+      justify-content: space-between;
+      margin: auto;
+      width: 80%;
+   }
+   .information-content:not(:last-child) {
+      margin-bottom: 0;
+      }
+         .information-description {
+            padding: 8px 8px 0 0;
+         }
+}
