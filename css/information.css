@@ -12,7 +12,7 @@
          .information-title {
             color: #ffffffbf;
          }
-         .information-description {
+         .information-discription{
             color: #ffffff99;
             font-size: 0.75rem;
             letter-spacing: 1px;
@@ -31,7 +31,7 @@
    .information-content:not(:last-child) {
       margin-bottom: 0;
       }
-         .information-description {
+         .information-discription {
             padding: 8px 8px 0 0;
          }
 }
